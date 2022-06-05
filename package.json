@@ -1,0 +1,32 @@
+{
+  "name": "my-react-apps",
+  "version": "1.0.0",
+  "description": "This repository  is for all react development purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --open",
+    "build": "webpack --config webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://royzen18: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@github.com/royzen18/my-react-apps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royzen18/my-react-apps/issues"
+  },
+  "homepage": "https://github.com/royzen18/my-react-apps#readme",
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.1"
+  }
+}
