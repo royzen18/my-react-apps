@@ -1,0 +1,74 @@
+.md-header {
+    background-color: #0b6bf2;
+    height: 100;
+    font-size: 40px;
+
+}
+
+.card-body {
+    width: 35rem;
+    margin-top: 40px;
+    margin: auto;
+    border-style: dashed solid;
+    border: 1px solid #0243eb;
+}
+
+input {
+    border: 1px solid #0243eb;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.add-skill_btn:disabled {
+    border: 1px solid red;
+    color: red;
+    opacity: 0.5;
+}
+
+.add-skill_btn:enabled {
+    border: 1px solid #0243eb;
+    color: #0243eb;
+}
+
+.add-skill_btn:hover:enabled {
+    background-color: #dbe9fd;
+    border: 1px solid #0243eb;
+    color: #0243eb;
+}
+
+
+.add-skill_btn1:enabled {
+    border: 1px solid #0243eb;
+    color: #0243eb;
+}
+
+.add-skill_btn1:hover:enabled {
+    background-color: #dbe9fd;
+    border: 1px solid #0243eb;
+    color: #0243eb;
+}
+
+.md-container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-style: dashed solid;
+    border: 1px solid #0243eb;
+}
+
+.add-skill_select {
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

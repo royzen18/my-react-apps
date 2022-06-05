@@ -3,6 +3,7 @@ import Select from 'react-select'
 import { useState } from "react";
 import makeAnimated from 'react-select/animated';
 import { MDBCard, MDBCardHeader, MDBContainer } from "mdbreact";
+import  './CSS/todo.css';
 
 function TodoComp() {
 
@@ -77,7 +78,7 @@ function TodoComp() {
                 <div> <p>Add To Do:
                     <input type='text' name='todo' value={todoVal}
                         onChange={Todo} />
-                    <button onClick={(e) => { addTodo(e) }}>Add</button>
+                    <button className='add-skill_btn1' onClick={(e) => { addTodo(e) }}>Add</button>
                 </p></div>
                 <div className="add-skill">
                     <p>Select To Do:</p>
@@ -85,7 +86,7 @@ function TodoComp() {
                         onChange={handleChange}
                         value={selectedOption}
                         components={animatedComponents} options={skills} isMulti
-
+                        disabled={!todoVal}
                     />
                     <button className="add-skill_btn" disabled={!(selectedOption && value)} id="addBtn" onClick={(e) => { addJoiner(e) }}>Add</button></div>
                 <div className="flex-row">
